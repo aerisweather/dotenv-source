@@ -1,0 +1,28 @@
+{
+  "name": "dotenv-source",
+  "version": "0.0.1",
+  "description": "Source a secrets file that isn't committed to your repo, commit your non-secret environment config.",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aerisweather/node-dotenv-source.git"
+  },
+  "keywords": [
+    "dotenv",
+    "environment",
+    "variables",
+    "source",
+    "include",
+    "secret",
+    "separate"
+  ],
+  "author": "Seth Miller <smiller@aerisweather.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aerisweather/node-dotenv-source/issues"
+  },
+  "homepage": "https://github.com/aerisweather/node-dotenv-source#readme"
+}
