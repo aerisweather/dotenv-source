@@ -1,6 +1,9 @@
 # dotenv-source
 Use a secrets file that isn't committed to your repo, commit your non-secret environment config.
 
+[![Build Status](https://travis-ci.org/aerisweather/node-dotenv-source.svg?branch=master)](https://travis-ci.org/aerisweather/node-dotenv-source)
+[![Coverage Status](https://coveralls.io/repos/github/aerisweather/node-dotenv-source/badge.svg?branch=master)](https://coveralls.io/github/aerisweather/node-dotenv-source?branch=master)
+
 A small extension to [dotenv](https://github.com/motdotla/dotenv), this allows the user to separate secret config from application config for applications that are deployed to multiple environments.
 
 ## Example
