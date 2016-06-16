@@ -14,6 +14,7 @@ dotenv.config = function(options) {
 		secretsEnvPath = path.resolve(path.join(path.dirname(configPath), config.SECRETS_ENV_PATH));
 	}
 
+	// Load Secrets file path, if we have one.
 	var secretConfig = {};
 	if(secretsEnvPath) {
 		const secretOptions = Object.assign({}, options, {path: secretsEnvPath});
